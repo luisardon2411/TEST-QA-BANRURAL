@@ -4,7 +4,7 @@ Este documento describe las observaciones y correcciones realizadas al código d
 
 ## Observaciones
 
-1. **Generación del número aleatorio**: La generación del número aleatorio no estaba correctamente implementada, generando valores entre 0 y 10 en lugar de 1 y 100.
+1. **Generación del número aleatorio**: La generación del número aleatorio no estaba correctamente implementada, generando valores entre 0 y 1 en lugar de 1 y 100.
 
 2. **Comparación de números**: El código comparaba los valores ingresados por el usuario con el número aleatorio como si fueran cadenas de texto en lugar de números.
 
@@ -22,9 +22,11 @@ Este documento describe las observaciones y correcciones realizadas al código d
 
 3. Se refactorizó el código utilizando funciones y objetos para simplificar la lógica y hacerlo más fácil de leer y mantener.
 
-4. Se corrigieron los metodos addEventListener
+4. Se corrigió los metodos addEventListener
 
-5. Se aplicó el principio DRY (Don't Repeat Yourself) para extraer la lógica repetida en funciones separadas que pueden ser reutilizadas.
+5. Se corrigió los colores en las notificaciones para el usuario.
 
-6. Se añadieron comentarios en las correcciones sugeridas para explicar la funcionalidad y ayudar a otros desarrolladores (o a ti mismo en el futuro) a entender rápidamente el propósito y la lógica del código.
+6. Se aplicó el principio DRY (Don't Repeat Yourself) para extraer la lógica repetida en funciones separadas que pueden ser reutilizadas.
+
+7. Se añadieron comentarios en las correcciones sugeridas para explicar la funcionalidad y ayudar a otros desarrolladores (o a ti mismo en el futuro) a entender rápidamente el propósito y la lógica del código.
 
